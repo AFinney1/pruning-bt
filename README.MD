@@ -23,4 +23,4 @@
 
     1. I wasn't sure how to implement the unit pruning method with the global pruning method, at least not without including the last layer. If I had, I believe I would have seen the degradation in accuracy suggested in the assigment. This led me to implement bias pruning as a second method, so I kept the biases in all models.
     2. I may have used an unfavorable batch size (1) for the training and validation loaders to make the architecture implementation easier(I started with 64). With additional time, I'm sure I could configure the architecture to use a larger batch size.
-    3. This was my first time using Pytorch's benchmarking tool. I'm not sure if importing it from __main__ gave me the actual 99% pruned model. I think additional setup is needed.
+    3. This was my first time using Pytorch's benchmarking tool. I'm not sure if importing it from __main__ gave me the actual trained 99% pruned models. I think additional setup is needed.
