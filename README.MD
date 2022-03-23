@@ -7,7 +7,7 @@
         ```
         jupyter network_pruning.ipynb
         ```
-    - I also ran the notebook in Google Colab without having set up the environment.
+    - I also ran the notebook in Google Colab without having set to up the environment.
 
 
 
